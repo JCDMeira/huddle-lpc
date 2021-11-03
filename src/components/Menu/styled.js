@@ -6,7 +6,8 @@ export const MenuContent = styled.div`
   position: relative;
   z-index: 2;
 
-  padding: 3.5rem 1.6rem 0 1.5rem;
+  padding: 0rem 1.6rem 0 1.5rem;
+  margin-bottom: 8.3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
