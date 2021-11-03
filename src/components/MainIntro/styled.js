@@ -8,4 +8,11 @@ export const MainIntroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  img {
+    width: 30rem;
+    height: 21.42rem;
+    margin-top: 5.4rem;
+    margin-left: -0.1rem;
+  }
 `;
