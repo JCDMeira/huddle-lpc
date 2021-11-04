@@ -3,6 +3,7 @@ import { Card } from '../Card';
 import { CardsDiv } from './style';
 import image1 from '../../assets/images/illustration-grow-together.svg';
 import image2 from '../../assets/images/illustration-flowing-conversation.svg';
+import image3 from '../../assets/images/illustration-your-users.svg';
 
 function Cards() {
   return (
@@ -18,6 +19,19 @@ function Cards() {
         Generate meaningful discussions with your audience and build a strong,
         loyal community. Think of the insightful conversations you miss out on
         with a feedback form.
+      </Card>
+
+      <Card
+        photo={image3}
+        myWidth={24.4}
+        myHeight={18.449}
+        mTop={5.9}
+        mBottom={6.551}
+        tittle={'Your Users'}
+      >
+        It takes no time at all to integrate Huddle with your app&apos;s
+        authentication solution. This means, once signed in to your app, your
+        users can start chatting immediately.
       </Card>
 
       <Card
