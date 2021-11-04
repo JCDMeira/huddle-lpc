@@ -1,11 +1,12 @@
 import React from 'react';
-import { FooterDiv } from './style';
+import { ContentFooterDiv } from './style';
+import footerLogo from '../../assets/images/logo-footer.svg';
 
 function ContentFooter() {
   return (
-    <FooterDiv>
-      <h1>footerDiv</h1>
-    </FooterDiv>
+    <ContentFooterDiv>
+      <img src={footerLogo} alt="" />
+    </ContentFooterDiv>
   );
 }
 
