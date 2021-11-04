@@ -3,6 +3,7 @@ import { GlobalStyle, Conteiner, Logo } from './global';
 import desktopBackground from './assets/images/bg-hero-desktop.svg';
 import mobileBackground from './assets/images/bg-hero-mobile.svg';
 import { Content } from './pages/Content';
+import { Footer } from './pages/Footer';
 
 function App() {
   const widthSize = window.screen.width;
@@ -15,6 +16,7 @@ function App() {
           alt="background image"
         />
         <Content />
+        <Footer />
       </Conteiner>
     </>
   );
