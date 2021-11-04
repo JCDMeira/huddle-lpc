@@ -1,25 +1,54 @@
 import React from 'react';
-import { MainFooterDiv, Icon } from './style';
+import { MainFooterDiv, MyDiv, Icon, Paragraph } from './style';
 import locationIcon from '../../assets/images/icon-location.svg';
-// import phoneIcon from '../../assets/images/icon-phone.svg';
-// import emailIcon from '../../assets/images/icon-email.svg';
+import phoneIcon from '../../assets/images/icon-phone.svg';
+import emailIcon from '../../assets/images/icon-email.svg';
 
 function MainFooter() {
+  const widthScreen = window.screen.width;
+  console.log(widthScreen);
   return (
     <MainFooterDiv>
-      <div>
+      <MyDiv mBottom={2.7}>
         <Icon
           src={locationIcon}
           alt="location icon"
           myWidth={1.3}
           myHeight={1.8}
           mRight={2.7}
+          mLeft={0}
         />
-        <p>
+        <Paragraph mTop={'-0.8'}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua
-        </p>
-      </div>
+        </Paragraph>
+      </MyDiv>
+
+      <MyDiv mBottom={2.8}>
+        <Icon
+          src={phoneIcon}
+          alt="phone icon"
+          myWidth={1.8}
+          myHeight={1.8}
+          mRight={1.9}
+          mLeft={0.3}
+        />
+        <Paragraph mTop={'-0.3'}>+1-543-123-4567</Paragraph>
+      </MyDiv>
+
+      <MyDiv mBottom={0}>
+        <Icon
+          src={emailIcon}
+          alt="email icon"
+          myWidth={2}
+          myHeight={1.6}
+          mRight={1.8}
+          mLeft={0.2}
+        />
+        <Paragraph mTop={'-0.4'}>
+          {widthScreen > 1023 ? 'example@huddle.com' : 'example@fylo.com'}
+        </Paragraph>
+      </MyDiv>
     </MainFooterDiv>
   );
 }
