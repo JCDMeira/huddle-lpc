@@ -22,19 +22,6 @@ function Cards() {
       </Card>
 
       <Card
-        photo={image3}
-        myWidth={24.4}
-        myHeight={18.449}
-        mTop={5.9}
-        mBottom={6.551}
-        tittle={'Your Users'}
-      >
-        It takes no time at all to integrate Huddle with your app&apos;s
-        authentication solution. This means, once signed in to your app, your
-        users can start chatting immediately.
-      </Card>
-
-      <Card
         photo={image2}
         myWidth={24.3}
         myHeight={17.3}
@@ -44,6 +31,19 @@ function Cards() {
       >
         You wouldn&apos;t paginate a conversation in real life, so why do it
         online? Our threads have just-in-time loading for a more natural flow.
+      </Card>
+
+      <Card
+        photo={image3}
+        myWidth={24.4}
+        myHeight={18.449}
+        mTop={5.6}
+        mBottom={6.451}
+        tittle={'Your Users'}
+      >
+        It takes no time at all to integrate Huddle with your app&apos;s
+        authentication solution. This means, once signed in to your app, your
+        users can start chatting immediately.
       </Card>
     </CardsDiv>
   );

@@ -22,7 +22,7 @@ export const CardDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 3.8rem;
+    padding: 0 4rem;
 
     h1 {
       font-family: Poppins;
