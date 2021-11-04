@@ -22,5 +22,5 @@ export const Logo = styled.img`
   position: absolute;
   left: 0;
   top: 0;
-  z-z-index: 1;
+  z-index: 1;
 `;
