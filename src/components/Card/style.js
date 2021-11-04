@@ -22,20 +22,20 @@ export const CardDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 3.4rem;
+    padding: 0 3.8rem;
 
     h1 {
       font-family: Poppins;
       font-style: normal;
       font-weight: bold;
       font-size: 2rem;
-      line-height: 2%.4rem;
+      line-height: 2.4rem;
 
       text-align: center;
 
       color: #00252e;
 
-      margin-bottom: 1.3rem;
+      margin-bottom: 1.7rem;
     }
 
     p {
