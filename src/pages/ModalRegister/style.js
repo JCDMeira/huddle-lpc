@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const ModalRegisterDiv = styled.div`
-  width: 35.2rem;
+  /* width: 35.2rem; */
+  width: 93.86666666666666vw;
   height: 17.5rem;
   background: #fff;
   border-radius: 1.5rem;

@@ -17,8 +17,9 @@ export const Conteiner = styled.div`
   height: 339.823rem;
 `;
 
-export const Logo = styled.img`
+export const BackImage = styled.img`
   width: 100%;
+  max-height: 71.6rem;
   position: absolute;
   left: 0;
   top: 0;

@@ -10,9 +10,14 @@ export const MainIntroContent = styled.div`
   align-items: center;
 
   img {
-    width: 30rem;
+    width: 80vw;
     height: 21.42rem;
     margin-top: 5.4rem;
     margin-left: -0.1rem;
+  }
+  @media (min-width: 374px) {
+    img {
+      width: 30rem;
+    }
   }
 `;

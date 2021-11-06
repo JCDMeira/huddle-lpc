@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const InfoIntroContent = styled.div`
-  width: 30.8rem;
+  /* width: 30.8rem; */
+  width: 82.13333333333334vw;
   height: 28.4rem;
   position: relative;
   z-index: 2;

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const ContentFooterDiv = styled.div`
-  width: 33.9rem;
+  /* width: 33.9rem; */
+  width: 90.4vw;
   height: 66.1rem;
 `;
 
