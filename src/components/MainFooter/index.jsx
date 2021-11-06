@@ -11,6 +11,10 @@ import {
 import locationIcon from '../../assets/images/icon-location.svg';
 import phoneIcon from '../../assets/images/icon-phone.svg';
 import emailIcon from '../../assets/images/icon-email.svg';
+import { RiFacebookFill } from 'react-icons/ri';
+import { SiTwitter } from 'react-icons/si';
+import { RiInstagramLine } from 'react-icons/ri';
+import { IconContext } from 'react-icons';
 
 function MainFooter() {
   const widthScreen = window.screen.width;
@@ -69,9 +73,21 @@ function MainFooter() {
       </Selection>
 
       <Social>
-        <div></div>
-        <div></div>
-        <div></div>
+        <IconContext.Provider value={{ size: 18 }}>
+          <div>
+            <RiFacebookFill />
+          </div>
+        </IconContext.Provider>
+        <IconContext.Provider value={{ size: 14 }}>
+          <div>
+            <SiTwitter />
+          </div>
+        </IconContext.Provider>
+        <IconContext.Provider value={{ size: 18 }}>
+          <div>
+            <RiInstagramLine />
+          </div>
+        </IconContext.Provider>
       </Social>
     </MainFooterDiv>
   );

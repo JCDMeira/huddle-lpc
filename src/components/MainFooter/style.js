@@ -63,5 +63,19 @@ export const Social = styled.div`
     border: 1px solid #ffffff;
     box-sizing: border-box;
     border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    :hover {
+      cursor: pointer;
+      border: 1px solid #ff52bf;
+    }
+    svg {
+      color: #fff;
+      :hover {
+        color: #ff52bf;
+      }
+    }
   }
 `;
