@@ -46,6 +46,11 @@ export const Selection = styled.div`
     margin: 1.8rem 0;
 
     color: #ffffff;
+
+    :hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
   }
 `;
 
