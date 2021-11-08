@@ -41,15 +41,17 @@ Users should be able to:
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
 
-<!--### result of my work
+### result of my work
 
-<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p> -->
+<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p>
+<p  align="center"><img width="1080px" src="./presentation/design-x-myWork1.gif" align="center"></img></p>
+<p  align="center"><img width="1080px" src="./presentation/design-x-myWork2.gif" align="center"></img></p>
 
 ### Links
 
-- Solution URL: [My solution for this challenge](https://www.figma.com/file/zXmDHuI6GzMNPK0QWSFMWW/12-Huddle-lp?node-id=0%3A1)
-<!-- - Live Site URL: [check the result](https://jcdmeira-single-price.netlify.app)
-- My figma design: [Figma](https://www.figma.com/file/qoi5g7sQ81YZysFwJJoWIz/07---Single-price?node-id=0%3A1) -->
+- Solution URL: [My solution for this challenge](https://www.frontendmentor.io/solutions/huddle-lpc-with-reactjs-react-icons-and-styledcomponents-LodyOpXBw)
+- Live Site URL: [check the result](https://jcdmeira-huddle-lpc.netlify.app)
+- My figma design: [Figma](https://www.figma.com/file/zXmDHuI6GzMNPK0QWSFMWW/12-Huddle-lp?node-id=0%3A1)
 
 ## My process
 
@@ -61,36 +63,54 @@ Users should be able to:
 
 ### What I learned
 
-<!--
-Using the grid template areas to define occupied spaces with an alias
+By importing the IconContext from react-icons it is possible to use the provider, accessed by IconContext.Provider. Then passing a properties object to the "value" parameter. Due to the provider the component will accept the hover effect.
 
-```CSS
-  .content {
-  display: grid;
-  gap: 0;
-  grid-template-areas:
-    'field1'
-    'field2'
-    'field3';
+```jsx
+import { IconContext } from 'react-icons';
+import { RiFacebookFill } from 'react-icons/ri';
+
+function MainFooter() {
+  return (
+    <IconContext.Provider value={{ size: 18 }}>
+      <div>
+        <RiFacebookFill />
+      </div>
+    </IconContext.Provider>
+  );
 }
 
-.field1 {
-  grid-area: field1;
-}
-.field2 {
-  grid-area: field2;
-}
-.field3 {
-  grid-area: field3;
-}
-@media (min-width: 900px) {
-  .content {
-    grid-template-areas:
-      'field1 field1'
-      'field2 field3';
+export { MainFooter };
+```
+
+```js
+import styled from 'styled-components';
+
+export const Social = styled.div`
+  div {
+    width: 3rem;
+    height: 3rem;
+
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      color: #fff;
+    }
+    :hover {
+      cursor: pointer;
+      border: 1px solid #ff52bf;
+      svg {
+        color: #ff52bf;
+      }
+    }
   }
-}
-``` -->
+`;
+```
 
 ### Useful resources
 
