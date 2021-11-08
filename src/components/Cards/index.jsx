@@ -31,9 +31,10 @@ function Cards() {
         mTop={6.1}
         mBottom={7.1}
         tittle={'Flowing Conversations'}
-        myDesktopWidth={40.4}
-        myDesktopHeight={33.1}
-        myPad={[5.7, 3.6, 0, 11.9]}
+        myDesktopWidth={41.4}
+        myDesktopHeight={29.5}
+        myPad={[7.2, 2.1, 0, 12.2]}
+        reverse={true}
       >
         You wouldn&apos;t paginate a conversation in real life, so why do it
         online? Our threads have just-in-time loading for a more natural flow.
@@ -46,9 +47,9 @@ function Cards() {
         mTop={5.6}
         mBottom={6.451}
         tittle={'Your Users'}
-        myDesktopWidth={40.4}
-        myDesktopHeight={33.1}
-        myPad={[5.7, 3.6, 0, 11.9]}
+        myDesktopWidth={41.9}
+        myDesktopHeight={31.6}
+        myPad={[6, 2.7, 0, 12.1]}
       >
         It takes no time at all to integrate Huddle with your app&apos;s
         authentication solution. This means, once signed in to your app, your

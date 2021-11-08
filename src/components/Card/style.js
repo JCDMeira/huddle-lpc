@@ -55,7 +55,7 @@ export const CardDiv = styled.div`
   @media (min-width: 1024px) {
     width: 85.69444444444444vw;
     height: 44.5rem;
-    flex-direction: row-reverse;
+    flex-direction: ${(props) => (props.reverse ? 'row' : 'row-reverse')};
     align-items: center;
     margin-bottom: 3.7rem;
 
@@ -73,7 +73,8 @@ export const CardDiv = styled.div`
       display: flex;
       flex-direction: column;
       align-items: initial;
-      padding: 0 16rem 0 0;
+      padding: 0 ${(props) => (props.reverse ? '0' : '18rem')} 0
+        ${(props) => (props.reverse ? '17rem' : '0')};
       h1 {
         font-size: 2.8rem;
         line-height: 4.2rem;

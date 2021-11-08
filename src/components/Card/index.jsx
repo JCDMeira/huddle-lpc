@@ -12,6 +12,7 @@ function Card({
   myDesktopWidth,
   myDesktopHeight,
   myPad,
+  reverse = false,
   children,
 }) {
   console.log(myPad);
@@ -25,6 +26,7 @@ function Card({
       myDesktopWidth={myDesktopWidth}
       myDesktopHeight={myDesktopHeight}
       myPad={myPad}
+      reverse={reverse}
     >
       <img src={photo} alt="image" />
       <div>
@@ -48,4 +50,5 @@ Card.propTypes = {
   myDesktopWidth: P.number.isRequired,
   myDesktopHeight: P.number.isRequired,
   myPad: P.array.isRequired,
+  reverse: P.bool,
 };
