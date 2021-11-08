@@ -35,5 +35,7 @@ export const PCopy = styled.p`
     font-size: 1.2rem;
     line-height: 1.8rem;
     text-align: right;
+    margin-right: 0.3rem;
+    margin-top: 3.2rem;
   }
 `;
