@@ -75,7 +75,7 @@ export const Selection = styled.div`
       align-items: initial;
       height: 16.9rem;
       a {
-        margin: -0.7rem 0 2.4rem 0;
+        margin: -0.7rem 0rem 2.4rem 0;
       }
     }
   }
@@ -109,5 +109,9 @@ export const Social = styled.div`
         color: #ff52bf;
       }
     }
+  }
+  @media (min-width: 1024px) {
+    margin-top: -0.8rem;
+    margin-left: 15.5rem;
   }
 `;
