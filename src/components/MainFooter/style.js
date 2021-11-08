@@ -4,11 +4,20 @@ export const MainFooterDiv = styled.div`
   height: 57.3rem;
   margin-top: 2.338rem;
   margin-left: 0.2rem;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    height: 16.9rem;
+  }
 `;
 
 export const Info = styled.div`
   display: flex;
   flex-direction: column;
+  @media (min-width: 1024px) {
+    width: 37rem;
+    margin-right: 13.8rem;
+  }
 `;
 
 export const MyDiv = styled.div`
@@ -50,6 +59,24 @@ export const Selection = styled.div`
     :hover {
       cursor: pointer;
       text-decoration: underline;
+    }
+  }
+  @media (min-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+
+    width: 31.7rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: initial;
+      height: 16.9rem;
+      a {
+        margin: -0.7rem 0 2.4rem 0;
+      }
     }
   }
 `;

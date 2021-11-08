@@ -7,4 +7,9 @@ export const FooterDiv = styled.div`
 
   background: #00252e;
   color: #fff;
+
+  @media (min-width: 1024px) {
+    height: 56.1rem;
+    padding: 19.3rem 7.3rem 0 11.9rem;
+  }
 `;

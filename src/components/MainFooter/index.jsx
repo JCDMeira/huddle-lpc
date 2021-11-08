@@ -63,12 +63,16 @@ function MainFooter() {
         </MyDiv>
       </Info>
       <Selection>
-        <a href="#">About Us</a>
-        <a href="#">What We Do</a>
-        <a href="#">FAQ</a>
-        <a href="#">Career</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact Us</a>
+        <div>
+          <a href="#">About Us</a>
+          <a href="#">What We Do</a>
+          <a href="#">FAQ</a>
+        </div>
+        <div>
+          <a href="#">Career</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact Us</a>
+        </div>
       </Selection>
 
       <Social>
