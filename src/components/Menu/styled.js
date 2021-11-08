@@ -31,6 +31,11 @@ export const MenuContent = styled.div`
     line-height: 1.5rem;
 
     color: #00252e;
+
+    :hover {
+      cursor: pointer;
+      color: rgba(0, 37, 46, 0.5);
+    }
   }
 
   @media (min-width: 1024px) {

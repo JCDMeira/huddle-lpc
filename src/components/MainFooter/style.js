@@ -99,13 +99,14 @@ export const Social = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    svg {
+      color: #fff;
+    }
     :hover {
       cursor: pointer;
       border: 1px solid #ff52bf;
-    }
-    svg {
-      color: #fff;
-      :hover {
+      svg {
         color: #ff52bf;
       }
     }

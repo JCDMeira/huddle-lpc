@@ -43,6 +43,11 @@ export const ModalRegisterDiv = styled.div`
     text-align: center;
 
     color: #ffffff;
+
+    :hover {
+      cursor: pointer;
+      filter: opacity(0.7);
+    }
   }
 
   @media (min-width: 1024px) {
