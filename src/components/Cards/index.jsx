@@ -15,6 +15,9 @@ function Cards() {
         mTop={5.8}
         mBottom={5.5}
         tittle={'Grow Together'}
+        myDesktopWidth={40.4}
+        myDesktopHeight={33.1}
+        myPad={[5.7, 3.6, 0, 11.9]}
       >
         Generate meaningful discussions with your audience and build a strong,
         loyal community. Think of the insightful conversations you miss out on
@@ -28,6 +31,9 @@ function Cards() {
         mTop={6.1}
         mBottom={7.1}
         tittle={'Flowing Conversations'}
+        myDesktopWidth={40.4}
+        myDesktopHeight={33.1}
+        myPad={[5.7, 3.6, 0, 11.9]}
       >
         You wouldn&apos;t paginate a conversation in real life, so why do it
         online? Our threads have just-in-time loading for a more natural flow.
@@ -40,6 +46,9 @@ function Cards() {
         mTop={5.6}
         mBottom={6.451}
         tittle={'Your Users'}
+        myDesktopWidth={40.4}
+        myDesktopHeight={33.1}
+        myPad={[5.7, 3.6, 0, 11.9]}
       >
         It takes no time at all to integrate Huddle with your app&apos;s
         authentication solution. This means, once signed in to your app, your

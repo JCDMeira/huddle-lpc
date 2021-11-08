@@ -18,7 +18,6 @@ import { IconContext } from 'react-icons';
 
 function MainFooter() {
   const widthScreen = window.screen.width;
-  console.log(widthScreen);
   return (
     <MainFooterDiv>
       <Info>

@@ -28,7 +28,7 @@ export const CardDiv = styled.div`
     h1 {
       font-family: Poppins;
       font-style: normal;
-      font-weight: bold;
+      font-weight: 600;
       font-size: 2rem;
       line-height: 2.4rem;
 
@@ -40,7 +40,7 @@ export const CardDiv = styled.div`
     }
 
     p {
-      font-family: Open Sans;
+      font-family: 'Open Sans';
       font-style: normal;
       font-weight: normal;
       font-size: 1.4rem;
@@ -49,6 +49,47 @@ export const CardDiv = styled.div`
       text-align: center;
 
       color: #808d99;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    width: 85.69444444444444vw;
+    height: 44.5rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 3.7rem;
+
+    padding-right: ${(props) => `${props.myPad[1]}rem`};
+    padding-left: ${(props) => `${props.myPad[3]}rem`};
+
+    img {
+      height: ${(props) => `${props.myDesktopHeight}rem`};
+      width: ${(props) => `${props.myDesktopWidth}rem`};
+      margin-top: ${(props) => `${props.mTop}rem`};
+      margin-bottom: ${(props) => `${props.mBottom}rem`};
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: initial;
+      padding: 0 16rem 0 0;
+      h1 {
+        font-size: 2.8rem;
+        line-height: 4.2rem;
+        font-weight: 700;
+
+        text-align: initial;
+
+        margin-bottom: 1.7rem;
+      }
+
+      p {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+
+        text-align: initial;
+      }
     }
   }
 `;
