@@ -5,7 +5,6 @@ export const ModalRegisterDiv = styled.div`
   width: 93.86666666666666vw;
   height: 17.5rem;
   background: #fff;
-  border-radius: 1.5rem;
 
   box-shadow: 0px 0px 4px 4px rgba(128, 141, 153, 0.25);
   border-radius: 15px;
@@ -44,5 +43,27 @@ export const ModalRegisterDiv = styled.div`
     text-align: center;
 
     color: #ffffff;
+  }
+
+  @media (min-width: 1024px) {
+    width: 80rem;
+    height: 28.1rem;
+    margin-top: 243.6rem;
+    padding: 6.8rem 1.2rem 0 1.12rem;
+
+    h1 {
+      font-size: 3.15rem;
+      line-height: 4.7rem;
+      margin-bottom: 3.7rem;
+    }
+
+    button {
+      width: 40rem;
+      height: 7.8rem;
+      border-radius: 40px;
+
+      font-size: 2rem;
+      line-height: 2.7rem;
+    }
   }
 `;
