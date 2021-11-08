@@ -6,4 +6,8 @@ export const ContentDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (min-width: 1024px) {
+    height: 262.5rem;
+  }
 `;

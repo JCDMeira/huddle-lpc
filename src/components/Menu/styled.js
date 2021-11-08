@@ -32,4 +32,20 @@ export const MenuContent = styled.div`
 
     color: #00252e;
   }
+
+  @media (min-width: 1024px) {
+    height: 4.6rem;
+    margin-bottom: 6.5rem;
+    padding: 0;
+    img {
+      width: 19.7rem;
+      height: 3.2rem;
+    }
+    button {
+      width: 20rem;
+      height: 4.6rem;
+      font-size: 1.42rem;
+      line-height: 2.1rem;
+    }
+  }
 `;

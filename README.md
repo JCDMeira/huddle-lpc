@@ -56,7 +56,6 @@ Users should be able to:
 
 ### Built with
 
-- CSS Grid
 - Mobile-first workflow
 - [Styled components](https://styled-components.com) - CSS in js with stiled components
 - [React](https://reactjs.org/) - JS library

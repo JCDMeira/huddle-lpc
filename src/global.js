@@ -15,6 +15,10 @@ html{
 export const Conteiner = styled.div`
   width: 100%;
   height: 339.823rem;
+
+  @media (min-width: 1023px) {
+    height: 318.6rem;
+  }
 `;
 
 export const BackImage = styled.img`
@@ -24,4 +28,7 @@ export const BackImage = styled.img`
   left: 0;
   top: 0;
   z-index: 1;
+  @media (min-width: 1023px) {
+    max-height: 71.8rem;
+  }
 `;
