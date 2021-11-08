@@ -45,7 +45,7 @@ export const InfoIntroContent = styled.div`
     background: #ff52bf;
     border-radius: 30px;
 
-    font-family: Open Sans;
+    font-family: ' Open Sans';
     font-style: normal;
     font-weight: bold;
     font-size: 1.2rem;
@@ -53,5 +53,35 @@ export const InfoIntroContent = styled.div`
     text-align: center;
 
     color: #ffffff;
+  }
+
+  @media (min-width: 1024px) {
+    width: 52.3rem;
+    height: 49.8rem;
+    align-items: initial;
+
+    h1 {
+      font-size: 3.9rem;
+      line-height: 5.8rem;
+      text-align: initial;
+
+      margin-top: 12.6rem;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: 2.7rem;
+      text-align: initial;
+      padding: 0;
+      margin-bottom: 3rem;
+    }
+
+    button {
+      width: 27.9rem;
+      height: 5.8rem;
+
+      font-size: 1.6rem;
+    }
   }
 `;

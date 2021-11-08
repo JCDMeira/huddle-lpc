@@ -35,7 +35,7 @@ export const MenuContent = styled.div`
 
   @media (min-width: 1024px) {
     height: 4.6rem;
-    margin-bottom: 6.5rem;
+    margin-bottom: 1.1rem;
     padding: 0;
     img {
       width: 19.7rem;
